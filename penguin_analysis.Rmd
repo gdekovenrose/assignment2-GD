@@ -1,0 +1,22 @@
+---
+title: "penguins"
+author: "Gabi DeKoven"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+require(descr)
+require(ggplot2)
+setwd("~/Documents/GitHub/assignment2-GD")
+```
+
+```{r}
+penguins<-read.csv("penguins.csv")
+head(penguins)
+
+freq(penguins$species)
+mean(penguins$bill_length_mm, na.rm = TRUE)
+```
+
