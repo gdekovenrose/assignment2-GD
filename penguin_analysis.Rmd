@@ -20,3 +20,10 @@ freq(penguins$species)
 mean(penguins$bill_length_mm, na.rm = TRUE)
 ```
 
+```{r}
+
+ggplot(penguins, aes(x = species, y = bill_length_mm)) +
+  geom_boxplot() +
+  labs(title = "Bill Length by Species", x = "Species", y = "Bill Length (mm)")
+```
+
