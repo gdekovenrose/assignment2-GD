@@ -9,12 +9,5 @@ This project uses `penguins.csv`, the Palmer Penguins dataset. It has measuremen
 `penguins_analysis.Rmd` is an R Markdown script that:
 - Loads `penguins.csv`
 - Calculates the mean bill length (ignoring missing values)
-- [Your second analysis, e.g., a frequency table of species]
 
 The knitted output is saved as `penguins_analysis.html`.
-
-## How to reproduce
-1. Clone or download this repository.
-2. Open `penguins_analysis.Rmd` in RStudio.
-3. Install the needed packages if you don't have them: `install.packages(c("descr", "ggplot2"))`
-4. Click **Knit**. The data file is in the same folder, so no file paths need changing.
