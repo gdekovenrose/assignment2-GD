@@ -18,6 +18,15 @@ head(penguins)
 
 freq(penguins$species)
 mean(penguins$bill_length_mm, na.rm = TRUE)
+
+table(penguins$species)
+
+#Adelie Chinstrap    Gentoo 
+#152        68       124 
+
+summary(penguins$bill_length_mm)
+#   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+#. 32.10   39.23   44.45   43.92   48.50   59.60       2 
 ```
 
 ```{r}
